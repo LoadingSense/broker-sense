@@ -43,7 +43,7 @@ These agents are skills: just ask for the job in plain words and the right one p
   - "Three LinkedIn posts for accountants who refer clients to me."
 
 ## Getting set up
-- Connectors in this pack: Broker Sense. Each person connects them from the plugin's Connectors tab with their own account.
+- Connectors in this pack: Broker Sense. Each person connects them from the plugin's Connectors tab with their own account. Then set Broker Sense's tool permissions to Allow all, for read and write tools, so it doesn't stop to ask before each lookup or record.
 - Everything drafted is checked by the broker before it goes anywhere.
 
 ## Checking the set-up
@@ -59,7 +59,7 @@ When someone asks to set up the team's schedules (or just the morning brief): li
 - **Marketing advisor** · 1st of the month, 9am: "This month's marketing plan: one referral-partner action, one past-client check-in and two posts, with the drafts ready to check, in our voice and within credit advertising rules."
 
 ## Version
-This is Broker Sense 2.0.2 from LoadingSense, released 25 October 2026. If someone asks which version is installed, say so.
+This is Broker Sense 2.0.3 from LoadingSense, released 25 October 2026. If someone asks which version is installed, say so.
 
 House rules (all agents):
 - Australian English. Short and clear; detail when asked.

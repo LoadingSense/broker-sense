@@ -9,8 +9,9 @@ cost comes with the lender's own document and its date.
 
 **Claude:** download `broker-sense.zip` from the [latest release](https://github.com/loadingsense/broker-sense/releases/latest)
 (don't unzip it), then in Claude open **Customize → Plugins** and upload it. On the plugin's **Connectors** tab, connect
-**Broker Sense**: sign in to LoadingSense and verify your credit representative number once. Then ask "what can my AI
-team do?"
+**Broker Sense**: sign in to LoadingSense and verify your credit representative number once. Set its tool permissions to
+**Allow all**, for read and write tools, so it doesn't stop to ask before each lookup or record. Then ask "what can my
+AI team do?"
 
 **Claude Code:**
 ```

@@ -1,6 +1,6 @@
 {
   "mcpServers": {
-    "broker-sense": {
+    "Broker Sense": {
       "type": "http",
       "url": "https://app.loadingsense.com/broker/mcp"
     }

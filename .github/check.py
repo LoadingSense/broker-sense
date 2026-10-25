@@ -1,6 +1,6 @@
 """Checks the Broker Sense package before it's published: valid manifests, one version everywhere (the tag's too, on a
 release) and in the changelog, every skill named and described, and connectors that are HTTPS with nothing secret in
-them (every installer receives .mcp.json). Usage: python3 .github/check.py [tag]"""
+them (every installer receives .mcp.json), and the icon plugin.json names. Usage: python3 .github/check.py [tag]"""
 import json
 import pathlib
 import re
@@ -20,6 +20,8 @@ for entry in market["plugins"]:
         problems.append(f"{m['name']}: the tag says {tag}, the plugin says {m['version']}")
     if not re.search(rf"^## {re.escape(m['version'])}( |$)", changelog, re.M):
         problems.append(f"{m['name']}: CHANGELOG.md has no entry for {m['version']}")
+    if m.get("icon") and not (plug / m["icon"]).is_file():
+        problems.append(f"{m['name']}: plugin.json's icon {m['icon']} isn't in the plugin")
     if (plug / "bin").exists():
         problems.append(f"{m['name']}: a top-level bin/ blocks install")
     skills = sorted((plug / "skills").glob("*/SKILL.md"))

@@ -23,4 +23,4 @@ The agents work on their own, from Claude's knowledge, and say when they couldn'
 ## Data
 Nothing is stored by this plugin: client details stay in your Claude account. Broker Sense receives scenarios described in bands (LVR, income range, loan purpose), never client names, contact details, addresses or exact figures.
 
-From LoadingSense (https://loadingsense.com). Version 2.0.4. Want the team tailored to your firm (your panel, templates and trackers)? Trepside builds that: https://trepside.com
+From LoadingSense (https://loadingsense.com). Version 2.0.5. Want the team tailored to your firm (your panel, templates and trackers)? Trepside builds that: https://trepside.com

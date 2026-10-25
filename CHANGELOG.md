@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.5 (25 Oct 2026)
+- When Broker Sense had too little on part of a question and a skill sends that part to Broker Sense for research, it
+  now tells you so in one line. Tools that record something are reached by name through `use_write_tool`.
+
 ## 2.0.4 (25 Oct 2026)
 - The listing links to the install guide, help, privacy policy and terms (no change to the skills).
 

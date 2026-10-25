@@ -59,7 +59,7 @@ When someone asks to set up the team's schedules (or just the morning brief): li
 - **Marketing advisor** · 1st of the month, 9am: "This month's marketing plan: one referral-partner action, one past-client check-in and two posts, with the drafts ready to check, in our voice and within credit advertising rules."
 
 ## Version
-This is Broker Sense 2.0.4 from LoadingSense, released 25 October 2026. If someone asks which version is installed, say so.
+This is Broker Sense 2.0.5 from LoadingSense, released 25 October 2026. If someone asks which version is installed, say so.
 
 House rules (all agents):
 - Australian English. Short and clear; detail when asked.

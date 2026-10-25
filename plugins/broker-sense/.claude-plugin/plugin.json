@@ -1,12 +1,25 @@
 {
   "name": "broker-sense",
   "displayName": "Broker Sense",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Your broker expert and specialist business partner, for Australian mortgage brokers. Eight skills: fact-finds, lender research, best-interests file notes, deal plans, contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and cost comes with its source and date.",
   "author": {
     "name": "LoadingSense",
     "url": "https://loadingsense.com"
   },
   "license": "SEE LICENSE IN LICENSE",
+  "homepage": "https://loadingsense.com/install",
+  "repository": "https://github.com/LoadingSense/broker-sense",
+  "documentationUrl": "https://loadingsense.com/install",
+  "supportUrl": "https://loadingsense.com/help",
+  "privacyPolicyUrl": "https://loadingsense.com/privacy",
+  "termsOfServiceUrl": "https://loadingsense.com/terms",
+  "keywords": [
+    "mortgage broker",
+    "home loans",
+    "lender policy",
+    "best interests",
+    "australia"
+  ],
   "icon": "./icon.png"
 }

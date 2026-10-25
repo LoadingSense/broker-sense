@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.4 (25 Oct 2026)
+- The listing links to the install guide, help, privacy policy and terms (no change to the skills).
+
 ## 2.0.3 (25 Oct 2026)
 - When Broker Sense isn't connected, the skills say so at the start, with the steps to connect it, then still help
   (marking what they couldn't check). They used to mention it once, at the end.

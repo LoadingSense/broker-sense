@@ -1,0 +1,15 @@
+{
+  "name": "loadingsense",
+  "description": "Broker Sense, from LoadingSense",
+  "owner": {
+    "name": "LoadingSense"
+  },
+  "plugins": [
+    {
+      "name": "broker-sense",
+      "source": "./plugins/broker-sense",
+      "description": "Your broker expert and specialist business partner, for Australian mortgage brokers. Eight skills: fact-finds, lender research, best-interests file notes, deal plans, contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and cost comes with its source and date.",
+      "version": "2.0.1"
+    }
+  ]
+}

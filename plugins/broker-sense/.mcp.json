@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "broker-sense": {
+      "type": "http",
+      "url": "https://app.loadingsense.com/broker/mcp"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Every push is checked. A version tag (v2.0.1) is checked against the plugin's version and published as a release
+# with broker-sense.zip, the file people upload to Claude (loadingsense.com/install links the latest one).
+name: Check and release
+on:
+  push:
+    branches: [main]
+    tags: ["v*"]
+  pull_request:
+permissions:
+  contents: write
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 .github/check.py "${{ github.ref_type == 'tag' && github.ref_name || '' }}"
+      - name: Release
+        if: github.ref_type == 'tag'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          version="${GITHUB_REF_NAME#v}"
+          (cd plugins && zip -qr ../broker-sense.zip broker-sense)
+          awk -v v="$version" '$0 ~ "^## " v "( |$)" {on=1; next} /^## / {on=0} on' CHANGELOG.md > notes.md
+          gh release create "$GITHUB_REF_NAME" broker-sense.zip --title "Broker Sense $version" --notes-file notes.md

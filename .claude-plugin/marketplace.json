@@ -8,8 +8,8 @@
     {
       "name": "broker-sense",
       "source": "./plugins/broker-sense",
-      "description": "Turns Claude into an experienced business partner for Australian mortgage brokers. Eight skills: fact-finds, lender research, BID file notes, deal plans, contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and cost comes with the lender's own document and its date.",
-      "version": "2.0.6"
+      "description": "Turns Claude into an experienced business partner for Australian finance brokers. Eight skills: fact-finds, lender research, BID file notes, deal plans, contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and cost comes with the lender's own document and its date.",
+      "version": "2.0.7"
     }
   ]
 }

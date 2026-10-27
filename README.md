@@ -1,6 +1,6 @@
 # Broker Sense
 
-A free AI team for Australian mortgage brokers, from [LoadingSense](https://loadingsense.com): it turns Claude into an
+A free AI team for Australian finance brokers, from [LoadingSense](https://loadingsense.com): it turns Claude into an
 experienced business partner. Eight skills: fact-finds, lender research, BID file notes, deal plans,
 contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and
 cost comes with the lender's own document and its date.

@@ -1,5 +1,8 @@
 # Changelog
 
+## 2.0.7 (28 Oct 2026)
+- The listing and README say Australian finance brokers (no change to the skills).
+
 ## 2.0.6 (27 Oct 2026)
 - The file-note skill is called the BID file note, the term brokers use.
 - A lender rule from its broker-portal guide is cited by the guide's name and its own date, in Broker Sense's words,

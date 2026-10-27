@@ -1,6 +1,6 @@
 # Broker Sense
 
-A free AI team from LoadingSense. Turns Claude into an experienced business partner for Australian mortgage brokers. Eight skills: fact-finds, lender research, BID file notes, deal plans, contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and cost comes with the lender's own document and its date.
+A free AI team from LoadingSense. Turns Claude into an experienced business partner for Australian finance brokers. Eight skills: fact-finds, lender research, BID file notes, deal plans, contracts, client care, compliance and marketing. Connect it to Broker Sense's live knowledge and every lender line and cost comes with the lender's own document and its date.
 
 ## Use it
 Ask for the job in plain words ("write the file note from these notes", "which lenders fit this scenario?") and the matching agent picks it up. Ask "what can my AI team do?" for the list with examples.
@@ -23,4 +23,4 @@ The agents work on their own, from Claude's knowledge, and say when they couldn'
 ## Data
 Nothing is stored by this plugin: client details stay in your Claude account. Broker Sense receives scenarios described in bands (LVR, income range, loan purpose), never client names, contact details, addresses or exact figures.
 
-From LoadingSense (https://loadingsense.com). Version 2.0.6. Want the team tailored to your firm (your panel, templates and trackers)? Trepside builds that: https://trepside.com
+From LoadingSense (https://loadingsense.com). Version 2.0.7. Want the team tailored to your firm (your panel, templates and trackers)? Trepside builds that: https://trepside.com
